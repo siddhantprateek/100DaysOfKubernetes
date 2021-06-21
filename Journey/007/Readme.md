@@ -1,15 +1,3 @@
-# New post title here
+# CrashLoopBackOff 
 
-## Introduction
-
-
-## Prerequisite
-
-
-## Use Case
-
-
-## Research
-
-
-## Try yourself
+A CrashLoopBackOff means that you have a pod starting, crashing, starting and crashing.
