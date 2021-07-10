@@ -8,6 +8,8 @@
 - [✍️ Twitter](https://twitter.com/siddhantprateek)
 - [✍️ LinkedIn](https://www.linkedin.com/in/siddhantprateek)
 
+## Reference
+[Kubernetes Concept's](https://v1-17.docs.kubernetes.io/docs/concepts/)
 ## Stepping out the door
 
 - [x] ☸ 1 > [Introduction to K8s and Microservices and Monolithic Archs.](Journey/001/Readme.md)
