@@ -20,8 +20,8 @@
 - [x] ☸ 6 > [Running mangoDB pod](Journey/006/Readme.md)
 - [x] ☸ 7 > [Kubernetes CrashLoopBackOff](Journey/007/Readme.md)
 - [x] ☸ 8 > [Kubernetes ReplicaSet](Journey/008/Readme.md)
-- [ ] ☸ 9 > [](Journey/009/Readme.md)
-- [ ] ☸ 10 > [](Journey/010/Readme.md)
+- [x] ☸ 9 > [Kubernetes Services](Journey/009/Readme.md)
+- [x] ☸ 10 > [Deployement](Journey/010/Readme.md)
 
 ## Walking down the road
 
