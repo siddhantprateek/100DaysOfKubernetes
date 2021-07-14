@@ -22,7 +22,7 @@ kind: Deployment
 metadata:
   name: react-application  👈 your deployment name
 spec:
-  replicas: 2
+  replicas: 2   👈 we alter the no. of replica want
   selector:
     matchLabels:
       run: react-application
@@ -70,4 +70,42 @@ $ kubectl expose deployment/my-nginx
 To delete the deployment
 ```
 kubectl delete deployment <deployment-name>
+```
+To delete the deployment
+```
+kubectl delete deployment <deployment-name>
+```
+
+Create Deployment from cloud
+```
+kubectl create deployment nginx-depl --image=nginx
+```
+will download latest nginx image from docker hub
+
+```
+kubectl get deployment
+```
+```
+kubectl get pod
+```
+```
+kubectl get replicaset
+```
+
+> **Note**: We do not interact directly with pod in kubernetes cluster. There are layers to which we interact. We interact with Deployment which is the abstraction of pod.
+ * We Interact with deployment it interact with ReplicaSet that interact with pod.
+
+### Debugging Pods
+
+```
+kubectl logs [pod-name]
+```
+
+for configuration:
+creating the configuration yaml file for the deployment
+```
+kubectl apply -f nginx-deployment.yaml
+```
+```
+touch nginx-deployment.yaml
 ```
