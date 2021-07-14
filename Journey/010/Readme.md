@@ -1,9 +1,6 @@
 # [Kubernetes Deployment](https://www.redhat.com/en/topics/containers/what-is-kubernetes-deployment)
 
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mNK14yXIZF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-
+[![Watch the video](https://i.ytimg.com/vi/EUitQ8DaZW8/maxresdefault.jpg)](https://www.youtube.com/embed/mNK14yXIZF4)
 
 A _Deployment_ provides declarative updates for [Pods](https://kubernetes.io/docs/concepts/workloads/pods/) and [ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/).
 
