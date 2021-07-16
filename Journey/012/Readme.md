@@ -1,15 +1,51 @@
-# New post title here
+## Day 12 
 
-## Introduction
+ # K9s
+
+Managing your kubernetes cluster through kubectl commands is difficult. 
+
+- You have to understand how the different components interact, specifically, what resources is linked to which other resource
+- Using a UI usually abstracts all the underlying resources, not allowing for the right learning experience to take place + forcing your to click buttons
+- You do not have full insights on the resources within your cluster.
+
+These are some of the aspects that K9s can help with.
 
 
-## Prerequisite
+K9s is a **terminal-based tool that visualizes the resources within your cluster and the connection between those.** It helps you to access, observe, and manage your resources. "K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources." 
 
 
-## Use Case
+### Getting k9s Setup
 
+* MacOS
+```
+ # Via Homebrew
+ brew install derailed/k9s/k9s
+ # Via MacPort
+ sudo port install k9s
+```
 
-## Research
+* Linux
+```
+ # Via LinuxBrew
+ brew install derailed/k9s/k9s
+ # Via PacMan
+ pacman -S k9s
+```
 
+* Windows
+```
+# Via scoop
+scoop install k9s
+# Via chocolatey
+choco install k9s
+```
 
-## Try yourself
+#### Building From Source
+    
+- K9s is currently using go v1.14 or above. In order to build K9 from source you must:
+
+    1. Clone the repo
+    2. Build and run the executable
+```
+make build && ./execs/k9s
+```
