@@ -26,6 +26,9 @@ or we can go for Nginx pod
 
 kubectl run nginx --image=nginx
 ```
+
+<img src="https://carbon.now.sh/embed?bg=rgba%2841%2C129%2C203%2C1%29&t=one-dark&wt=none&l=application%2Fx-sh&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=67px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%25E2%259E%259C%2520%2520k8s-specs%2520git%253A%28master%29%2520kubectl%2520run%2520db%2520--image%2520mongo%2520%255C%2520--generator%2520%2522run-pod%252Fv1%2522%250Apod%252Fdb%2520created%" alt=""/>
+
 you will find something like this on your terminal.
 ```shell
 
@@ -36,7 +39,7 @@ To check whether the pod is up and running. run `kubectl get pods` in the termin
 
 since the mongoDB pod is quiet big it might take a while to show the pod is running
 ```shell
-➜  k8s-specs git:(master) kubectl get pods            
+➜  k8s-specs git:(master) kubectl get pods
 NAME    READY   STATUS             RESTARTS   AGE
 nginx   1/1     Running            0          11m
 db      0/1     CrashLoopBackOff   9          24m
@@ -45,7 +48,7 @@ it takes time for mangoDB pod be ready.
 
 To look into the pod definition
 ```shell
-➜  k8s-specs git:(master) cat pod/db.yml   
+➜  k8s-specs git:(master) cat pod/db.yml
 
 apiVersion: v1  <- version 1 of the Kubernetes pod API; API version and kind has to be provided -- it is mandatory
 kind: Pod
