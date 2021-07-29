@@ -1,3 +1,4 @@
+
 # Minikube
 **Minikube** is a single-node cluster, but easy to work with kubernetes try stuff locally.
 
@@ -39,3 +40,4 @@ Will open up the kubernetes dashboard
 ```
 minikube dashboard
 ```
+![Group 8](https://user-images.githubusercontent.com/43869046/127490822-a221a903-b361-4862-9762-8a6c32416a17.png)
